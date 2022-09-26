@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Pytest of register tb testfile",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest register/tb",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
