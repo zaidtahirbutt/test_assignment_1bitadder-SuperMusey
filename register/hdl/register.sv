@@ -11,7 +11,7 @@ module register #(
 );
 
 always @(posedge clk) // iverilog linux doesn't support always_ff
-    q <= d;
+    q <= 1;
 
 
 `ifdef COCOTB_SIM
